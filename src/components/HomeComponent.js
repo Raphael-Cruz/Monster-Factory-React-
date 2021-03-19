@@ -1,7 +1,7 @@
 import React from 'react';
 import homeimage from '../img/homeimage.png';
 
-const imgMyimageexample = require('../img/homeimage.png');
+
 const divStyle = {
   width: '100vw',
   height: '100vh',
@@ -9,12 +9,13 @@ const divStyle = {
   backgroundSize: 'cover'  
 };
 
-export default class Mycomponent extends React.Component {
-  render() {
+function Home() {
     return (
-      <div className="cComponent" style={divStyle} >
+      <div className="HomeImage" style={divStyle} >
       
       </div>
     );
   }
-}
+
+
+export default Home;

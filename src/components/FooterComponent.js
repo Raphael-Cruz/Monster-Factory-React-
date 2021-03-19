@@ -1,6 +1,5 @@
 import React from 'react';
-import 'font-awesome/css/font-awesome.css';
-import 'bootstrap-social/bootstrap-social.css';
+
 
 function Footer(props) {
     return (
@@ -19,8 +18,9 @@ function Footer(props) {
                         <h5>Links</h5>
                         <ul class="list-unstyled">
                             <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="locations.html">Locations</a></li>
-                            <li><a href="contact.html">Contacts</a></li>
+                           <li><a href="contact.html">Contact Us</a></li>
+                           
+                        
                         </ul>
                     </div>
                     <div className="col-4 col-sm-4 text-center">

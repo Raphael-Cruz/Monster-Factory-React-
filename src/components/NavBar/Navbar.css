@@ -1,0 +1,128 @@
+.NavBarItems {
+  background: linear-gradient(90deg, #212529, #343a40 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 15px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #c4c6e4;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .NavBarItems {
+    position: relative;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    padding-top: px;
+    border-top: 1px solid rgba(255, 255, 255, 0.247);
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background: #2a2f35;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-links {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: table;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(5%, 25%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50vw;
+
+    transform: translate(25%, 50%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 60%;
+    background: #4ad9e4;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #6568F4;
+    transition: 250ms;
+    text-decoration: none;
+}
+
+Button {
+    opacity: 0;
+}
+
+}
