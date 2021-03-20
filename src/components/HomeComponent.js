@@ -1,18 +1,14 @@
 import React from 'react';
-import homeimage from '../img/homeimage.png';
+import {IMAGES} from './shared/images';
+import '../App.css';
 
 
-const divStyle = {
-  width: '100vw',
-  height: '100vh',
-  backgroundImage: `url(${homeimage})`,
-  backgroundSize: 'cover'  
-};
+const images = IMAGES;
 
-function Home() {
+const Home = () => {
     return (
-      <div className="HomeImage" style={divStyle} >
-      
+      <div className="HomeImage">
+      <img src={images.home.image} alt="" />
       </div>
     );
   }

@@ -5,6 +5,7 @@ import { Button } from "./Button";
 
 
 
+
 class Navbar extends React.Component {
   state = { clicked: false };
 
@@ -27,7 +28,9 @@ class Navbar extends React.Component {
                                 <a className={item.cName} href={item.url}>
                                 {item.title}
                                 </a>
+                              
                             </li>
+                            
                         )
                     })}
                 </ul>
