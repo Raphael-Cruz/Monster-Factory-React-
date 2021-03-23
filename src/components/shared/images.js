@@ -23,5 +23,26 @@ export const IMAGES ={
     },
     specialization4:{
         image: "assets/gymIcon.png"
-    }  
+    },
+    gallery1:{
+        image: "assets/galleryBodyBuild.jpg"
+
+    },
+    gallery2:{
+        image: "assets/galleryCrossfit.jpg"
+
+    }
+    ,
+    gallery3:{
+        image: "assets/galleryFit.jpg"
+
+    },
+    gallery4:{
+        image: "assets/galleryGym.jpg"
+
+    },
+    gallery5:{
+        image: "assets/galleryPowerlift.jpg"
+
+    }          
 }

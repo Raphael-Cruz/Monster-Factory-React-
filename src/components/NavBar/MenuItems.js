@@ -16,17 +16,17 @@ export const MenuItems = [
   },
   {
     title: "Gallery",
-    url: "#",
+    url: "/gallery",
     cName: "nav-links",
   },
   {
     title: "Contact",
-    url: "#",
+    url: "/contact",
     cName: "nav-links",
   },
   {
     title: "JOIN",
-    url: "#",
+    url: "/pricetab",
     cName: "nav-links-mobile",
   }
 

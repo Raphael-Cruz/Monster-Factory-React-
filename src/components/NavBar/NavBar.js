@@ -16,7 +16,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className="NavBarItems">
-        <h1 className="navbar-logo text-nowrap">Monster Factory</h1>
+        <a style={{textDecoration: 'none'}} href={"/home"} ><h1 className="navbar-logo text-nowrap">Monster Factory</h1></a>
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>
         </div>

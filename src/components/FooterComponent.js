@@ -19,8 +19,8 @@ function Footer(props) {
                     <div className="col-4 col-sm-4">
                         <h5>Links</h5>
                         <ul class="list-unstyled">
-                            <li><a href="gallery.html">Gallery</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="/gallery">Gallery</a></li>
+                           <li><a href='/contact'>Contact Us</a></li>
                            
                         
                         </ul>

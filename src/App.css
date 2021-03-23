@@ -2,12 +2,30 @@ body {
   font-family: "Open Sans", sans-serif;
   
 }
+
+.HomeImage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .backgroundAbout{
 background: black;
 background-size: cover;
 }
+.backgroundContact{
+  background: black;
 
+  }
 
+  .pricebackground{
+    background: black;
+  }
+
+  .backgroundGallery{
+    background: black;
+  
+    }
 
 p {
   color: rgba(255, 255, 255, 0.76);
@@ -56,4 +74,25 @@ h2, h3, h4, h5 {
   Card{
       display: block;
   }
+}
+
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+  }
+
+  .img-box:hover img { 
+    transform: scale(1.2);
+}
+
+.img-gallery {
+      height: 250px;
+      width: 350px;
+      transform: scale(0.9);
+      transition: transform 0.4s ease;
+      padding: 10px;
 }
