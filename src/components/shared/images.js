@@ -4,6 +4,11 @@ export const IMAGES ={
 		image: "assets/logoLight.png"
         
      },
+     
+    logo:{
+        image: "assets/logoLight.png"
+
+    },   
      home:{
         
         image:"assets/homeimage.png",

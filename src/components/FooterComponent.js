@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-function Footer(props) {
+
+function Footer() {
     return (
         <footer className="site-footer">
             <div className="container">
@@ -35,6 +36,11 @@ function Footer(props) {
                   
                 </div>
             </div>
+            <div className="footer-copyright text-center py-3">
+        <div className="container-fluid text-light">
+          &copy; {new Date().getFullYear()} Copyright: Raphael da Cruz
+        </div>
+      </div>
         </footer>
     );
 }

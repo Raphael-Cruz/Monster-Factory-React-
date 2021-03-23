@@ -2,10 +2,11 @@ import React from "react";
 import '../NavBar/Navbar.css';
 import {MenuItems} from "./MenuItems";
 import { Button } from "./Button";
+import { IMAGES } from "../shared/images";
 
 
 
-
+const images = IMAGES;
 class Navbar extends React.Component {
   state = { clicked: false };
 
@@ -16,7 +17,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className="NavBarItems">
-        <a style={{textDecoration: 'none'}} href={"/home"} ><h1 className="navbar-logo text-nowrap">Monster Factory</h1></a>
+        <a style={{textDecoration: 'none'}} href={"/home"} ><img src={images.logo.image} alt="" style={{width:'100px', height:'100px', paddingTop:'10px'}} /></a>
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>
         </div>

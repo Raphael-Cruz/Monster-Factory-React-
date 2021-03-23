@@ -63,7 +63,7 @@ class Contact extends Component{
                             <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> monstefactoryr@default.com</a>
                         </div>
                     </div>
-                    <div className="row row-content">
+                    <div className="row row-content" style={{border: 'none'}}>
                         <div className="col-12 text-center">
                             <h2>Send us your Feedback</h2>
                             <hr />

@@ -6,7 +6,7 @@ function PriceTab() {
       <div className="pricebackground">
         <br />
         <div className="container p-2">
-        <div className="row row-content" id="pricepanel">
+        <div className="row row-content" style={{border: 'none'}}>
           <div className="col-sm-4 p-1">
             <div className="card text-center text-light">
               <div className="card-header bg-dark font-weight-bold ">

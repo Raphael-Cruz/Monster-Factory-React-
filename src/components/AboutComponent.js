@@ -18,7 +18,7 @@ class About extends Component {
 
     <div className="backgroundAbout">
       <div className="container">
-        <div className="row row-content" id="box">
+        <div className="row row-content" id="box" style={{border: 'none'}}>
           <div className="col text-justify">
             <h2 className="font-weight-bold"> ABOUT US</h2>
             <hr />
