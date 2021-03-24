@@ -21,7 +21,7 @@ function Footer() {
                         <h5>Links</h5>
                         <ul class="list-unstyled">
                             <li><a href="/gallery">Gallery</a></li>
-                           <li><a href='/contact'>Contact Us</a></li>
+                           <li><a href='/contact'>Contact</a></li>
                            
                         
                         </ul>
