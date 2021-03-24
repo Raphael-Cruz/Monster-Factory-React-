@@ -1,9 +1,8 @@
 import React from "react";
-import '../NavBar/Navbar.css';
 import {MenuItems} from "./MenuItems";
 import { Button } from "./Button";
 import { IMAGES } from "../shared/images";
-
+import '../NavBar/Navbar.css';
 
 
 const images = IMAGES;

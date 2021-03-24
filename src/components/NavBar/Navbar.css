@@ -72,6 +72,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    margin-top: 4%;
   }
   .nav-links {
     text-align: center;
@@ -79,7 +80,10 @@
     width: 100%;
     display: table;
   }
-
+  .nav-links:hover {
+    background-color: #8e9aaf;
+    border-radius: 0;
+}
   .navbar-logo {
     position: absolute;
     top: 0;
@@ -89,13 +93,12 @@
 
   .menu-icon {
     display: block;
-    position: relative;
-    top: 0;
-    left: 50vw;
-
-    transform: translate(25%, 50%);
-    font-size: 1.8rem;
-    cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
   }
 
   .fa-times {
@@ -120,10 +123,10 @@
     color: #6568F4;
     transition: 250ms;
     text-decoration: none;
+ }
+ #Button-join {
+  display: none;
 }
 
-#Button-join {
-    opacity: 0;
-}
-
+ 
 }
