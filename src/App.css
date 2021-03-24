@@ -4,31 +4,39 @@ body {
 }
 
 .HomeImage {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+  }
+
 
 .specBackground{
 
   background: black;
+  width: 100vw;
 }
 
 .backgroundAbout{
 background: black;
-background-size: cover;
+width: 100vw; 
 }
 .backgroundContact{
   background: black;
+  width: 100vw;
 
   }
 
   .pricebackground{
     background: black;
+    width: 100vw;
   }
 
   .backgroundGallery{
     background: black;
+    width: 100vw;
   
     }
 
@@ -67,6 +75,7 @@ h2, h3, h4, h5 {
   position: relative;
   bottom: 0h;
   padding: 20px 40px;
+  width: 100vw;
 }
 
 

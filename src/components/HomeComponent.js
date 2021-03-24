@@ -7,8 +7,8 @@ const images = IMAGES;
 
 const Home = () => {
     return (
-      <div className="HomeImage">
-      <img src={images.home.image} alt="" />
+      <div>
+      <img className="HomeImage" src={images.home.image} alt="" />
       </div>
     );
   }

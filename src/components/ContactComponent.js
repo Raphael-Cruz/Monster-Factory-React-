@@ -60,7 +60,7 @@ class Contact extends Component{
                         </div>
                         <div className="col">
                             <a role="button" className="btn btn-link" href="tel:+123456789"><i className="fa fa-phone" /> 1-123-456-7890</a><br />
-                            <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> monstefactoryr@default.com</a>
+                            <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> monstefactory@default.com</a>
                         </div>
                     </div>
                     <div className="row row-content" style={{border: 'none'}}>
