@@ -1,3 +1,9 @@
+# Monster Factory
+This project was created by Raphael da Cruz.
+
+This is a business model website of a fictional gym. The project was created using React.
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
